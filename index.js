@@ -12,7 +12,7 @@ module.exports = {
     if(this.options.minifyJS.enabled === true && type === 'all') {
       var options = this.options.minifyJS.options || {};
       options.sourceMapConfig = this.options.sourcemaps;
-      return require('broccoli-uglify-sourcemap')(tree, options);
+      return require('broccoli-uglify-es-sourcemap')(tree, options);
     } else {
       return tree;
     }
