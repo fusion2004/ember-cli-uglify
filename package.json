@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-uglify-es",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript minification for Ember-CLI",
   "scripts": {
     "start": "ember server",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ember-cli/ember-cli-uglify.git"
+    "url": "https://github.com/fusion2004/ember-cli-uglify.git"
   },
   "engines": {
     "node": ">= 0.12"
@@ -23,6 +23,6 @@
     "before": "broccoli-asset-rev"
   },
   "dependencies": {
-    "broccoli-uglify-es-sourcemap": "^1.0.0"
+    "broccoli-uglify-es-sourcemap": "^1.0.1"
   }
 }
