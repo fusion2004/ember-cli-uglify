@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.3] - 2017-05-23
+### Changed
+- Upgraded broccoli-uglify-es-sourcemap to 1.0.2
+
 ## [1.0.2] - 2017-05-23
 ### Added
 - This change log!
